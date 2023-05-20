@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Astrophysics</title>
+		<link href="style.css" rel="stylesheet" type="text/css" >
+	</head>
+	
+	<body>
+		
+		<button onclick="topFunction()" id="myBtn">↑</button>
+		
+		<header>
+			<h2 class="logo">LOGO</h2>
+			<nav class="nav1">
+				<a href="Astrophysics.html">Home</a>
+				<a href="#about">About</a>
+				<a href="#desc">Description</a>
+				<a href="#history">History</a>
+				<a href="#contacts">Contacts</a>
+			</nav>
+		</header>
+		
+		<div class="banner">
+			<h2>ASTROPHYSICS</h2>
+		</div>
+		
+		<br><br><br><br><br><br>
+		
+		<section class="content" id="about">
+			<h1>About</h1><br><br>
+			<p>This website is about Astrophysics. The website includes the description and importance of astrophysics, its history, and the famous astrophysicist in all of time.</p>
+		</section>
+		
+		<section class="content" id="desc">
+			<h1>Description</h1><br><br>
+			<h2>What is Astrophysics?</h2><br>
+			<p>Astrophysics is the study of the physical properties and behavior of celestial bodies, including planets, stars, galaxies, and the universe as a whole. It is a branch of astronomy that focuses on the scientific principles behind the objects and phenomena observed in space.</p>
+			<h2>Why is Astrophysics Important?</h2><br>
+			<p> Astrophysics plays a fundamental role in our understanding of the universe and its origins. It offers insights into the physical properties and behavior of celestial bodies and has resulted in many significant discoveries in recent years. Additionally, it has been instrumental in our technological development and has contributed to our knowledge in many different fields. As we continue to explore the universe, we can expect astrophysics to play an increasingly important role in our endeavors.</p>
+		</section>
+		
+		<section class="content" id="history">
+			<h1>History</h1><br><br>
+			<p>The development of a single physics in the seventeenth century, in which the same laws applied to the celestial and terrestrial realms, is thought to be the beginning of astrophysics. The foundation for current astrophysics research was laid by scientists who received training in both physics and astronomy.</p>
+		</section>
+		
+		<section class="content" id="contacts">
+			<h1>Contacts</h1><br><br>
+			<h2>Email:</h2><br>
+			<p>mlaorden@crc.pshs.edu.ph</p>
+			<h2>Discord:</h2><br>
+			<p>M.Laorden#3185</p>
+		</section>
+		
+	</body>
+	
+	<br><br><br>
+	
+	<footer>
+		<h2>Copyright &copy;2023 Astrophysics</h2>
+		<nav class="nav1">
+			<a href="Astrophysics.html">Home</a>
+			<a href="#about">About</a>
+			<a href="#desc">Description</a>
+			<a href="#history">History</a>
+			<a href="#contacts">Contacts</a>
+		</nav>
+	</footer>
+		
+	<script>
+		let mybutton = document.getElementById("myBtn");
+		
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				mybutton.style.display = "block";
+			} else {
+				mybutton.style.display = "none";
+			}
+		}
+
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+	</script>
+	
+<html>
